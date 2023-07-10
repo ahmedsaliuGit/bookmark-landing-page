@@ -1,5 +1,15 @@
+import Footer from "./containers/Footer";
+import Header from "./containers/Header";
+import Main from "./containers/Main";
+
 function App() {
-  return <div className="text-center text-2xl mt-8">Setting up App</div>;
+  return (
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
