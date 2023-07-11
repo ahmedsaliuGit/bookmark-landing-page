@@ -5,10 +5,9 @@ import FrequentSection from "../components/FrequentSection";
 
 export default function Main() {
   return (
-    <main className="w-full px-10">
+    <main className="w-full">
       <Hero />
       <FeatureSection />
-      <div>Tab area</div>
       <DownloadSection />
       <FrequentSection />
     </main>
