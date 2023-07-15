@@ -22,10 +22,12 @@ export const Accordion = function ({
   return (
     <div className="w-full flex flex-col">
       <button
-        className="flex justify-between py-4 items-center border-b-[1px]"
+        className="group/item flex justify-between py-4 items-center border-b-[1px]"
         onClick={() => handleClick(title)}
       >
-        <span className="font-normal">{title}</span>
+        <span className="font-normal group-hover/item:text-soft-red">
+          {title}
+        </span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="18"

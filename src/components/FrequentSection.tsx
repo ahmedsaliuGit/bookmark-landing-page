@@ -11,7 +11,7 @@ export default function FrequentSection() {
 
   return (
     <Section>
-      <div className="w-full px-10 text-center mt-28">
+      <div className="w-full md:w-[72%] lg:w-[33%]  md:mx-auto px-10 text-center mt-28 lg:mt-12">
         <h2 className="font-medium mb-4">Frequently Asked Questions</h2>
         <p className="text-grayish-blue mb-4">
           Here are some of our FAQs. If you have any other questions you’d like
@@ -52,7 +52,7 @@ export default function FrequentSection() {
         </div>
         <a
           href="#"
-          className="bg-soft-blue p-4 font-normal text-white rounded-lg inline-block my-4"
+          className="bg-soft-blue p-3 font-normal text-white rounded inline-block my-4"
         >
           More Info
         </a>
